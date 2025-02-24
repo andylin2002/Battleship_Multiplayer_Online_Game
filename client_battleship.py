@@ -10,14 +10,12 @@ ships_positions = set()
 buttons = []
 ship_types = [
 
-    ("Destroyer", 2)
-]
-'''
+    ("Destroyer", 2),
     ("Carrier", 5),
     ("Battleship", 4),
     ("Cruiser", 3),
     ("Submarine", 3),
-'''
+]
 current_ship_index = 0
 current_ship_cells = []
 is_my_turn = False  # 是否為本方回合
