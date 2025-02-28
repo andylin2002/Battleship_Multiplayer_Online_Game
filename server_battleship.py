@@ -11,12 +11,11 @@ BOARD_COLS = 8
 ships_positions = set()
 buttons = []
 ship_types = [
-
-    ("Destroyer", 2),
     ("Carrier", 5),
     ("Battleship", 4),
     ("Cruiser", 3),
     ("Submarine", 3),
+    ("Destroyer", 2)
 ]
 
 server_life = sum(ship[1] for ship in ship_types)

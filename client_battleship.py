@@ -9,12 +9,11 @@ BOARD_COLS = 8
 ships_positions = set()
 buttons = []
 ship_types = [
-
-    ("Destroyer", 2),
     ("Carrier", 5),
     ("Battleship", 4),
     ("Cruiser", 3),
     ("Submarine", 3),
+    ("Destroyer", 2),
 ]
 current_ship_index = 0
 current_ship_cells = []
